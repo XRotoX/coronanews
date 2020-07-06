@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sidentifier">
+    <ImageView
+        android:id="@+id/coronasidentifier"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/corona"/>
+
+    <TextView
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Le but de cette interface est de localiser l'utilisateur et de mémoriser les lieux fréquentés dans une certaine durée  et de limiter son déplacement en période de confinement afin de minimiser la propagation du virus. "
+        android:textAllCaps="true"
+        android:textColor="@android:color/black"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="CIN"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/loginEditText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1.5"
+        android:textColor="@android:color/black"
+        android:background="@color/colorPrimaryDark"
+        android:hint="CIN"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="Mot de passe"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1.5"
+        android:background="@color/colorPrimaryDark"
+        android:hint="Mot de passe"
+        android:inputType="textPassword"
+        android:textStyle="italic" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/buttoninsc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Créer un compte"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/okButton"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:text="Se connecter"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:text="Retour à l'accueil"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

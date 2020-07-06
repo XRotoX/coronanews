@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".prevention">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/corona"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/portdumasque"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/toucherlevisage"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/sererlesmains"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mouchoir"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Portez un masque."
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Évitez de vous touchez les yeux, le nez et la bouche "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Saluez sans serrer la main, n'embrassez personne."
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Toussez ou éternuez dans votre coude ou un mouchoir."
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/malade"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/laverlesmains"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/evitezlecontact"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/nettoyerlessurfaces"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Si vous tombez malade, appelez votre médecin "
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:text="Lavez-vous très régulièrement les mains."
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="15dp"
+            android:gravity="center"
+            android:text="Respectez les mesures de distanciation sociales."
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="Gardez les objets et les surfaces propres "
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center">
+        <Button
+            android:id="@+id/backprev"
+            android:layout_width="85dp"
+            android:layout_height="50dp"
+            android:text="Retour"/>
+    </LinearLayout>
+
+</LinearLayout>

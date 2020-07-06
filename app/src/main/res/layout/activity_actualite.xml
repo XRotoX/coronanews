@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actualite">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/corona"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp">
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Prévention "/>
+        <Button
+            android:id="@+id/symp"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Symptômes "/>
+        <Button
+            android:id="@+id/act"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Actualités "/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="90dp"
+            android:src="@drawable/maskvirus"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:src="@drawable/symptoms"/>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:src="@drawable/coronact"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/retour"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="Retour à l'accueil"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "526825224077",
+    "firebase_url": "https://ppp-sud.firebaseio.com",
+    "project_id": "ppp-sud",
+    "storage_bucket": "ppp-sud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526825224077:android:b1b7b49b2fbfdb23046fc4",
+        "android_client_info": {
+          "package_name": "com.inpt.coronapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526825224077-ihaa1asm22ai5bcbvkkoako3htjbgd4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inpt.coronapp;",
+            "certificate_hash": "76a068588e6afce981ec97296f383c185ac36dc8"
+          }
+        },
+        {
+          "client_id": "526825224077-pj0dq3ak1qskfjenbd8lgqi46u7hn919.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZW4HzCCrN6ZlVajIkFZ8_zAz5_eGhu0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526825224077-pj0dq3ak1qskfjenbd8lgqi46u7hn919.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526825224077:android:9fee2aa376ba2b25046fc4",
+        "android_client_info": {
+          "package_name": "com.exemple.coronanews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526825224077-pj0dq3ak1qskfjenbd8lgqi46u7hn919.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZW4HzCCrN6ZlVajIkFZ8_zAz5_eGhu0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526825224077-pj0dq3ak1qskfjenbd8lgqi46u7hn919.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526825224077:android:6de939fd8ee9ce31046fc4",
+        "android_client_info": {
+          "package_name": "com.exemple.coronanewsaya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526825224077-pj0dq3ak1qskfjenbd8lgqi46u7hn919.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZW4HzCCrN6ZlVajIkFZ8_zAz5_eGhu0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526825224077-pj0dq3ak1qskfjenbd8lgqi46u7hn919.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

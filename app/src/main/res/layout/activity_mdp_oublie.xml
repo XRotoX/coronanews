@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MdpOublieActivity">
+
+    <TextView
+        android:id="@+id/tvOPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:gravity="center_horizontal"
+        android:text="Entrer votre numéro de téléphone + CIN"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etOPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Votre numéro de tel. "
+        android:inputType="phone"
+        android:text="+2126"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/etOCin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="CIN"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btOValiderNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:gravity="center_horizontal"
+        android:text="Valider"
+        android:textColor="#000000" />
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/etOCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Entrer le code de reçu"
+        android:inputType="phone"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btOValider2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:gravity="center_horizontal"
+        android:text="Valider"
+        android:textColor="#000000" />
+
+
+
+</LinearLayout>

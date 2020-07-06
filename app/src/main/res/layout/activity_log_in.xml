@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:background="#FFF"
+android:weightSum="12"
+android:orientation="vertical"
+tools:context=".LogInActivity">
+
+
+    <LinearLayout
+    android:layout_margin="20dp"
+    android:layout_weight="1.5"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:weightSum="5"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+        <EditText
+            android:id="@+id/etCin2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:hint="  Phone number"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/call_left_dr"
+            android:textColor="@color/textColor"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="22dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:background="@drawable/edit_text_bg"
+            android:drawableLeft="@drawable/password_left_dr"
+            android:ems="10"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:textColor="@color/textColor"/>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/btConnect"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_send_black_24dp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:clickable="true"
+        android:onClick="goRegister"
+        android:text="Pas encore enregistré ? "
+        android:textColor="#01154E"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvOublie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:clickable="true"
+        android:onClick="goOublie"
+        android:text="Mot de passe oublié ? "
+        android:textColor="#01154E"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</LinearLayout>

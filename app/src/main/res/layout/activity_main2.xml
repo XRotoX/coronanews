@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DADFF6"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvCin"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CIN "
+            android:textColor="#001247"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etCin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Entrer votre CIN"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvNom"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nom "
+            android:textColor="#001247"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Entrer votre nom"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPrenom"
+            android:layout_width="151dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Prénom "
+            android:textColor="#001247"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etPrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Entrer votre prénom"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLieu"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_weight="8"
+            android:text="Lieu de Naissance "
+            android:textColor="#001247"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etLieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Né à"
+            android:inputType="textPersonName"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="138dp"
+            android:layout_height="85dp"
+            android:layout_weight="0.5"
+            android:text="Date de Naissance"
+            android:textColor="#001247"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/etJour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:ems="10"
+            android:hint="Jour"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etMois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:ems="10"
+            android:hint="Mois"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etAnnee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:ems="10"
+            android:hint="Année"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btValider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:backgroundTint="#4D6CEF"
+        android:text="Valider"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvGoLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="50px"
+        android:clickable="true"
+        android:onClick="goLogin"
+        android:text="Déjà enregistré ? "
+        android:textColor="#01154E"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

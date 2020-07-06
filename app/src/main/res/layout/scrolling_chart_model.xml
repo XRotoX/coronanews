@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chartParentLayout"
+    android:shape="rectangle"
+    android:layout_height="170dp"
+    android:layout_width="130dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:weightSum="6"
+    android:gravity="bottom"
+    android:background="@drawable/rec_rounded_green">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/countryNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/statusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+10020"
+            android:layout_margin="2dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/cubicChart"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="0dp"
+        android:layout_weight="3.7"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>
